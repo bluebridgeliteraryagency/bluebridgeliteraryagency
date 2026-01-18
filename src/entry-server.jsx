@@ -32,7 +32,7 @@ export function render(_url, options) {
   console.log("_url, options: ", { _url, options });
   return renderToPipeableStream(
     <StrictMode>
-      <StaticRouter location={_url}>
+      <StaticRouter location={_url} basename={import.meta.env.BASE_URL}>
         <App />
       </StaticRouter>
       <vite-streaming-end></vite-streaming-end>

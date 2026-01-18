@@ -52,7 +52,7 @@ const Header = () => {
       <nav className="max-w-7xl mx-auto px-6 flex justify-between items-center   ">
         <NavLink to="/" className="flex items-center gap-3 group cursor-pointer z-50">
           <div className="w-16 h-16 rounded-lg flex items-center justify-center text-white transition-transform group-hover:rotate-12 group-hover:scale-110 duration-300">
-            <img src="/favicon.svg" alt="blue bridge literary agency logo" />
+            <img src="favicon.svg" alt="blue bridge literary agency logo" />
           </div>
           {/* <p className="leading-none">
             <span className="text-xl font-black tracking-tighter leading-none block text-slate-900">

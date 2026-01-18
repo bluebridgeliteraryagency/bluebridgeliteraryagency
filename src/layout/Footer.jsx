@@ -51,7 +51,7 @@ const CompanyInfo = () => (
     <div className="flex items-center gap-3 mb-5">
       <div className="w-16 h-16  rounded-lg flex items-center justify-center text-white">
         {/* <span className="material-symbols-outlined text-3xl">radio_button_unchecked</span> */}
-        <img src="/favicon.svg" alt="blue bridge literary agency logo" />
+        <img src="favicon.svg" alt="blue bridge literary agency logo" />
       </div>
       <div>
         <span className="text-2xl font-black tracking-tighter leading-none block">BLUE BRIDGE</span>
